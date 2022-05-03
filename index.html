@@ -1,0 +1,116 @@
+<html lang="pt-br">
+  <head>
+  <title>Formulário Tinder</title>
+    <meta charset=”utf-8”>
+    <meta name="author" content="Bruno Santiago">
+    <meta name="description" content="Formulário para criar conta no Tinder">
+    <meta name="keywords" content="Número, Email, Nome, Aniversário, Orientação Sexual, Universidade, Interesses, Foto">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+<body>
+  <h1>Tinder</h1>
+  <h2>Cadastro</h2>
+
+<form> <!--formulário-->  
+
+  <!--Número--> 
+  <label for="numero"> <strong>Meu número é</strong> </label> <br> 
+  <input type="number" name="numero" placeholder="Informe seu número"> <br>
+  <!--placeholder - elemento predefinido que precisa ser configurado para que possa ser exibido para o usuário-->
+
+  <p>Enviaremos uma mensagem de texto com o código de verificação.<br>
+  Tarifas de mensagens e de dados podem ser aplicáveis.</p> 
+
+  <!--Email--> 
+  <label for="email"> <strong>Qual é o seu e-mail?</strong> </label> <br> 
+  <input type="email" name="email" placeholder="Inserir e-mail"> <br>
+  <p>Não perca acesso à sua conta, verifique seu e-mail.</p> 
+        
+  <!--Nome--> 
+  <label for="nome"> <strong>Meu nome é</strong> </label> <br> 
+  <input type="text" name="nome" placeholder="Informe seu nome"> <br>
+  <p>É assim que seu nome aparecerá no Tinder e você não poderá alterá-lo.</p>
+
+  <!--Aniversário--> 
+  <label for="aniversário"> <strong>Meu aniversário é</strong> </label> <br> 
+  <input type="date" name="aniversário"> <br>
+  <p>Sua idade será pública.</p>
+
+  <!--Sexo--> 
+  <label for="sexo"> <strong>Eu sou</strong> </label> <br>
+  <input type="radio" name="genero" value="m"> Mulher
+  <input type="radio" name="genero" value="h"> Homem <br> <br>
+        
+  <!--Orientação Sexual--> 
+  <label for="orientação sexual"> <strong>Minha orientação sexual é</strong> </label> <br>
+  <input type="checkbox" name="orientação" value="h"> Heterossexual <!--atração pelo sexo oposto-->
+  <input type="checkbox" name="orientação" value="g"> Gay <!--Homens, cis ou transgêneros, que se atraem por outros homens-->
+  <input type="checkbox" name="orientação" value="l"> Lésbica <!--Mulheres, cis ou transgêneros, que se atraem por outras mulheres-->
+  <input type="checkbox" name="orientação" value="b"> Bissexual <!--Pessoas, cis ou transgêneros, que se atraem por pessoas de ambos ou mais gêneros--> 
+  <input type="checkbox" name="orientação" value="a"> Assexual <br> <!--Pessoa que não sente atração por nenhum dos sexos ou gêneros--> 
+  <input type="checkbox" name="orientação" value="d"> Demissexual <!--só sente desejo depois de estabelecer um vínculo--> 
+  <input type="checkbox" name="orientação" value="p"> Pansexual <!--Pessoa que sente atração independentemente da identidade de gênero--> 
+  <input type="checkbox" name="orientação" value="q"> Queer <!--Quem não corresponde à heteronormatividade, seja pela sua orientação sexual, identidade de gênero, atração emocional ou pela sua expressão de gênero.--> 
+  <input type="checkbox" name="orientação" value="Q"> Questionando <br> <br> <!--Processo de exploração e questionamento quanto à orientação ou identidade sexual--> 
+
+  <!--Procurando por--> 
+  <label for="procurando"> <strong>Procurando por</strong> </label> <br>
+  <input type="radio" name="procurando" value="m"> Mulheres
+  <input type="radio" name="procurando" value="h"> Homens 
+  <input type="radio" name="procurando" value="t"> Todos <br> <br>
+
+   <!--Universidade--> 
+   <label for="universidade"> <strong>Minha universidade é</strong> </label> <br> 
+   <input type="text" name="universidade"> <br> <br>
+
+   <!--Interesses--> 
+   <label for="interesses"> <strong>Interesses</strong> </label> <br>
+   <input type="checkbox" name="interesses" value="n"> Novo na cidade
+   <input type="checkbox" name="interesses" value="e"> Estudante
+   <input type="checkbox" name="interesses" value="s"> Sextou
+   <input type="checkbox" name="interesses" value="t"> Tatuagens
+   <input type="checkbox" name="interesses" value="c"> Conversar para afastar o tédio <br>
+   <input type="checkbox" name="interesses" value="e"> Esportes 
+   <input type="checkbox" name="interesses" value="E"> Experimentar coisas novas 
+   <input type="checkbox" name="interesses" value="f"> Fazer amigos
+   <input type="checkbox" name="interesses" value="v"> Viagem
+   <input type="checkbox" name="interesses" value="a"> Açaí <br>
+
+   <!--Adicionar foto--> 
+   <h4>Adicione pelo menos 2 fotos no seu perfil</h4>
+   <button>Adicionar fotos</button> <br>
+
+   <!--Senha--> 
+   <h3>Crie sua senha</h3>
+   <label for="senha"> <strong>Senha</strong> </label> <br> 
+   <input type="password" name="senha"> <br> <br>
+
+   <!--Confirmar sua senha-->
+   <label for="confirmarSenha"> <strong>Confirme sua senha</strong> </label> <br> 
+   <input type="password" name="confirmarSenha"> <br>
+
+   <h3>Crie sua conta no Tinder</h3>
+
+   <p>Ao tocar em criar conta, você concorda com nossos termos.<br>
+   Saiba como processamos os seus dados em nossa política de privacidade e política de cookies.</p>
+
+   <!--Submit/Enviar--> 
+   <input type="submit" value="Criar sua conta"> 
+   
+</form>
+    
+  <hr> 
+        
+  <h2>Bem-vindo(a) ao Tinder</h2>
+  <p>Siga as regras da casa</p>
+
+   <!--Lista Não Ordenada-->
+   <ul style="list-style-type:square;"> <!--Marcador do Item Quadrado-->
+      <li>Seja você mesmo(a). Certifique-se de que suas fotos, idade e descrição sejam verdadeiras.</li>
+      <li>Proteja-se. Não de informações pessoais logo de cara.</li>
+      <li>Seja legal. Respeite os outros e os trate como você gostaria de ser tratado.</li>
+      <li>Seja pró-ativo(a). Sempre denuncie mau comportamento.</li>
+   </ul> 
+
+</body>
+</html>
